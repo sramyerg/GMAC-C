@@ -1,5 +1,13 @@
+/* 
+HC-SR04 with Arduino Uno R3
+https://gdcuyasen.wixsite.com/gmac-c/blog/ultrasonic-sensor
 
-int triggerPin  = 2;
+Graceson D. Cuyasen 
+December 28, 2019 
+https://gdcuyasen.wixsite.com/gmac-c/
+*/
+   
+int triggerPin  = 2; 
 int echoPin     = 3;
 
 void setup() {
@@ -12,7 +20,7 @@ void loop() {
   
   digitalWrite(triggerPin, LOW);
   delayMicroseconds(2);
-  
+
   digitalWrite(triggerPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(triggerPin, LOW);
