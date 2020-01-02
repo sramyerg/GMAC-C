@@ -1,10 +1,10 @@
 /* 
 HC-SR04 with Arduino Uno R3
-https://gdcuyasen.wixsite.com/gmac-c/blog/ultrasonic-sensor
+https://gmac-c.000webhostapp.com/2020/01/hc-sr04-sensor-module-with-arduino-uno
 
 Graceson D. Cuyasen 
 December 28, 2019 
-https://gdcuyasen.wixsite.com/gmac-c/
+https://gmac-c.000webhostapp.com/
 */
    
 int triggerPin  = 2; 
