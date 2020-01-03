@@ -3,10 +3,9 @@
 * https://gmac-c.000webhostapp.com/2020/01/using-16x2-lcd-with-arduino-uno-r3
 */
 
-// includes the LiquidCrystal Library 
 #include <LiquidCrystal.h>
 
-// Creates an LC object. Parameters: (rs, enable, d4, d5, d6, d7) 
+// Parameters: (rs, enable, d4, d5, d6, d7) 
 LiquidCrystal lcd(1, 2, 4, 5, 6, 7); 
 
 void setup() { 
