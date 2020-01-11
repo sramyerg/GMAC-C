@@ -1,10 +1,6 @@
 /* 
 HC-SR04 with Arduino Uno R3
-https://gmac-c.000webhostapp.com/2020/01/hc-sr04-sensor-module-with-arduino-uno
-
-Graceson D. Cuyasen 
-December 28, 2019 
-https://gmac-c.000webhostapp.com/
+https://gmac.2600tech.com/
 */
    
 int triggerPin  = 2; 
