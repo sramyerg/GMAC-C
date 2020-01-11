@@ -1,11 +1,11 @@
 /* 
- *  Graceson D. Cuyasen
- *  https://gmac-c.000webhostapp.com/
+ * http://gmac.2600tech.com/
+ * http://gmac.2600tech.com/2020/01/10/dht22-temperature-and-humidity-sensor/
  */
 
 #include <DHT.h>
 
-const int dhtpin = 2;  
+const int dhtpin = 7;  
 
 // use DHT22 sensor
 DHT dhtsensor (dhtpin, DHT22); 
